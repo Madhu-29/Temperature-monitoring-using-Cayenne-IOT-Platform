@@ -17,7 +17,7 @@ This temperature monitoring system is based on Cayenne Internet of Things (IoT) 
       
      3V -VCC	             VCC
      
-      Gnd                     Gnd
+      Gnd                   Gnd
 
 
 # Esp32 programming with Arduino IDE
@@ -72,30 +72,29 @@ After adding all details in the code, compile it and upload the program (sketch)
 
 # Hardware interfacing with Cayenne IoT platform
 
-STEP-1:
+# STEP-1:
+To interface the circuit with the IoT platform, open this link on any browser. Click on Sign Up Free. Fill all the fields and click on Get Started Free.
 ![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-1.jpg)
-
-STEP-2:
+# STEP-2:
+Next, click on Bring Your Own Things (Fig. 4) from Cayenne API.
 ![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-2.jpg)
-
-STEP-3:
+# STEP-3:
 Copy MQTT username, password and client ID from Create App. Paste these respective details under username, password and client ID in Arduino source code along with your Wi-Fi name and password.
 ![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-3.jpg)
-
-STEP-4:
+# STEP-4:
 After successfully compiling and uploading the code toESP32, open Serial Monitor in Arduino IDE. You will see ESP32 connected to Wi-Fi. After the connection is established, the previous page is automatically updated on Cayenne. A new dashboard opens in the browser. Cayenne generates an ID and a device icon for your device you may change it in Settings.
 ![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-4.jpg)
-
-STEP-5:
+# STEP-5:
 Click on Add new and then Device/Widget in Settings.
 ![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-5.jpg)
-
-STEP-6:
+# STEP-6:
 When a connection is made, sensor data gets uploaded to Cayenne. Temperature data on Cayenne.
 ![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-6.jpg)
-
-STEP-7:
+# STEP-7:
+You can get a graphical representation of temperature data by clicking on the encircled icon.
 ![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-7.jpg)
 
+# NOTE
+Temperture monitoring can also be done using other IOT platforms like [Thingspeak](),[Adafruit](),[firebase](),asksensors etc.
 
 
