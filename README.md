@@ -15,9 +15,9 @@ This temperature monitoring system is based on Cayenne Internet of Things (IoT) 
    
       D15	                    OUT
       
-     3V -VCC	             VCC
+     3V -VCC	                 VCC
      
-      Gnd                   Gnd
+      Gnd                      Gnd
 
 
 # Esp32 programming with Arduino IDE
@@ -74,6 +74,7 @@ After adding all details in the code, compile it and upload the program (sketch)
 
 # STEP-1:
 To interface the circuit with the IoT platform, open this link on any browser. Click on Sign Up Free. Fill all the fields and click on Get Started Free.
+
 ![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-1.jpg)
 # STEP-2:
 Next, click on Bring Your Own Things (Fig. 4) from Cayenne API.
