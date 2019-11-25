@@ -1,5 +1,5 @@
 # Temperature-monitoring-using-Cayenne-IOT-Platform
-This temperature monitoring system is based on Cayenne Internet of Things (IoT) platform, NodeMCU microcontroller (MCU) and Message Queuing Telemetry Transport (MQTT) protocol. Cayenne IoT Platform contains a vast catalogue of certified IoT-ready devices and connectivity options. This allows users to easily add any device to the library utilising MQTT API. All devices in Cayenne are interoperable and benefit from features such as rules engine, asset tracking, remote monitoring and control, and tools to visualise real-time and historical data.
+This temperature monitoring system is based on Cayenne Internet of Things (IoT) platform, ESP32 microcontroller (MCU) and Message Queuing Telemetry Transport (MQTT) protocol. Cayenne IoT Platform contains a vast catalogue of certified IoT-ready devices and connectivity options. This allows users to easily add any device to the library utilising MQTT API. All devices in Cayenne are interoperable and benefit from features such as rules engine, asset tracking, remote monitoring and control, and tools to visualise real-time and historical data.
 # Required components
    ESP32 dev module
    
@@ -15,7 +15,7 @@ This temperature monitoring system is based on Cayenne Internet of Things (IoT) 
    
       D15	                    OUT
       
-     3V -VCC	               VCC
+     3V -VCC	              VCC
      
       Gnd                      Gnd
 
