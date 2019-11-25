@@ -15,7 +15,7 @@ This temperature monitoring system is based on Cayenne Internet of Things (IoT) 
    
       D15	                    OUT
       
-     3V -VCC	                 VCC
+     3V -VCC	               VCC
      
       Gnd                      Gnd
 
