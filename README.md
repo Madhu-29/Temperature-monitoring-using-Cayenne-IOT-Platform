@@ -72,11 +72,30 @@ After adding all details in the code, compile it and upload the program (sketch)
 
 # Hardware interfacing with Cayenne IoT platform
 
-![Cat](https://raw.githubusercontent.com/{user}/{repo}/assets/cat.png)
-Copy MQTT username, password and client ID from Create App (Fig. 5). Paste these respective details under username, password and client ID in Arduino source code along with your Wi-Fi name and password.
+STEP-1:
+![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-1.jpg)
+
+STEP-2:
+![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-2.jpg)
+
+STEP-3:
+Copy MQTT username, password and client ID from Create App. Paste these respective details under username, password and client ID in Arduino source code along with your Wi-Fi name and password.
+![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-3.jpg)
+
+STEP-4:
 After successfully compiling and uploading the code toESP32, open Serial Monitor in Arduino IDE. You will see ESP32 connected to Wi-Fi. After the connection is established, the previous page is automatically updated on Cayenne. A new dashboard opens in the browser. Cayenne generates an ID and a device icon for your device you may change it in Settings.
+![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-4.jpg)
+
+STEP-5:
 Click on Add new and then Device/Widget in Settings.
+![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-5.jpg)
+
+STEP-6:
 When a connection is made, sensor data gets uploaded to Cayenne. Temperature data on Cayenne.
+![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-6.jpg)
+
+STEP-7:
+![alt-text](https://github.com/Madhu-29/Temperature-monitoring-using-Cayenne-IOT-Platform/blob/master/CAYENNE-7.jpg)
 
 
 
